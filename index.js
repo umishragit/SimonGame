@@ -65,7 +65,7 @@ function check_user_input(nid){
 		level = 0;
 		$("h1").text("Invalid sequence play again");
 		$(".btn").off("click");
-		$("#play_button").after('<button class="button button1" id="start_btn">Restart Game</button>');
+		$("#play_button").after('<button class="btn1 button1" id="start_btn">Restart Game</button>');
 		// $("#start_btn").text("Restart Game");
 		$("#start_btn").one("click",function (){
 			game_reset();

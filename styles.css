@@ -5,20 +5,25 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 100%;
   margin:  5%;
   color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
-  text-align: center;
+@media (min-width: 992px) { 
+  .container {
+    /*display: block;*/
+    width: 50%;
+    /*margin: auto;*/
+    text-align: center;
+  }
 }
 
+
+
+
 .btn {
-  margin: 25px;
+  margin: 5%;
   display: inline-block;
   height: 200px;
   width: 200px;
@@ -52,17 +57,17 @@ body {
   background-color: grey;
 }
 
-.button {
+.btn1 {
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 12px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 4px;
   transition-duration: 0.4s;
   cursor: pointer;
+  font-size: 100%;
 }
 
 .button1 {
@@ -74,4 +79,29 @@ body {
 .button1:hover {
   background-color: #4CAF50;
   color: white;
+}
+
+
+@media (max-width: 575.98px) { 
+
+  .btn {
+  margin: 5%;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/*.container {
+  
+    width: 70%;
+
+    text-align: center;
+  }
+*/
+ /* .btn1{
+      font-size: 50%
+  }*/
+
 }
