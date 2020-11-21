@@ -87,8 +87,8 @@ body {
   .btn {
   margin: 5%;
   display: inline-block;
-  height: 80px;
-  width: 80px;
+  height: 170px;
+  width: 170px;
   border: 10px solid black;
   border-radius: 20%;
 }
